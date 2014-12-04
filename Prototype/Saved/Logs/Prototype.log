@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 12/03/14 19:41:42
+=======
+﻿Log file open, 12/03/14 19:33:14
+>>>>>>> origin/master
 LogInit:Display: Running engine for game: Prototype
 LogInit: Version: 4.6.0-2369412+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -9,6 +13,7 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
+<<<<<<< HEAD
 [2014.12.04-00.41.42:879][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
 [2014.12.04-00.41.42:926][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
 [2014.12.04-00.41.42:943][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
@@ -293,3 +298,74 @@ LogInit: Rocket: 1
 [2014.12.04-00.47.39:049][  9]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2014.12.04-00.47.39:050][  9]LogExit: Exiting.
 [2014.12.04-00.47.39:064][  9]Log file closed, 12/03/14 19:47:39
+=======
+[2014.12.04-00.33.14:407][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.12.04-00.33.14:467][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.12.04-00.33.14:492][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.12.04-00.33.14:500][  0]LogInit: Object subsystem initialized
+[2014.12.04-00.33.14:501][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.12.04-00.33.14:502][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Esther/Desktop/PrototypeTEST/Prototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.04-00.33.14:502][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2014.12.04-00.33.14:502][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Esther/Desktop/PrototypeTEST/Prototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.12.04-00.33.14:502][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2014.12.04-00.33.14:502][  0]LogInit: Selected Device Profile: [Windows]
+[2014.12.04-00.33.14:502][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.12.04-00.33.14:506][  0]LogInit: Computer: ARCHER
+[2014.12.04-00.33.14:506][  0]LogInit: User: Esther
+[2014.12.04-00.33.14:506][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.12.04-00.33.14:506][  0]LogInit: High frequency timer resolution =3.410220 MHz
+[2014.12.04-00.33.14:506][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.12.04-00.33.14:506][  0]LogMemory: Platform Memory Stats for Windows
+[2014.12.04-00.33.14:506][  0]LogMemory: Process Physical Memory: 49.20 MB used, 49.20 MB peak
+[2014.12.04-00.33.14:506][  0]LogMemory: Process Virtual Memory: 25.13 MB used, 25.14 MB peak
+[2014.12.04-00.33.14:506][  0]LogMemory: Physical Memory: 4880.96 MB used, 16330.93 MB total
+[2014.12.04-00.33.14:506][  0]LogMemory: Virtual Memory: 275.15 MB used, 134217728.00 MB total
+[2014.12.04-00.33.14:529][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.12.04-00.33.14:529][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.12.04-00.33.14:530][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.12.04-00.33.14:530][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.12.04-00.33.14:530][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.12.04-00.33.14:533][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.12.04-00.33.14:542][  0]LogD3D11RHI: Async texture creation enabled
+[2014.12.04-00.33.14:598][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.12.04-00.33.14:726][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.12.04-00.33.19:861][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.04-00.33.20:245][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.04-00.33.20:292][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.12.04-00.33.20:332][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.04-00.33.20:332][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2014.12.04-00.33.20:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Esther/Desktop/PrototypeTEST/Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.12.04-00.33.20:332][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.12.04-00.33.20:395][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.12.04-00.33.20:407][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Esther/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.12.04-00.33.20:529][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2014.12.04-00.33.20:658][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.12.04-00.33.20:658][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.12.04-00.33.21:001][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.12.04-00.33.21:049][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2014.12.04-00.33.21:685][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.12.04-00.33.21:843][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Esther/Desktop/PrototypeTEST/Prototype/Binaries/Win64. Error: 0
+[2014.12.04-00.33.21:965][  0]SourceControl: Info Source control is disabled
+[2014.12.04-00.33.21:965][  0]SourceControl: Info Source control is disabled
+[2014.12.04-00.33.21:970][  0]SourceControl: Info Source control is disabled
+[2014.12.04-00.33.22:065][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2014.12.04-00.33.22:065][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2014.12.04-00.33.22:114][  0]LogEngine: Initializing Engine...
+[2014.12.04-00.33.22:240][  0]LogInit: XAudio2 using '32LD400-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.12.04-00.33.22:248][  0]LogInit: FAudioDevice initialized.
+[2014.12.04-00.33.22:264][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.12.04-00.33.22:290][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Esther/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2014.12.04-00.33.22:294][  0]LogInit: Texture streaming: Enabled
+[2014.12.04-00.33.22:315][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.12.04-00.33.22:316][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.0-2369412+++depot+UE4-Releases+4.6
+[2014.12.04-00.33.22:316][  0]LogAnalytics: SetUserId 70beb0383841c0a2e9ed774eed08f711
+[2014.12.04-00.33.22:316][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.12.04-00.33.22:327][  0]LogInit: Transaction tracking system initialized
+[2014.12.04-00.33.22:401][  0]BlueprintLog: New page: Editor Load
+[2014.12.04-00.33.22:428][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.12.04-00.33.22:428][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.12.04-00.33.22:853][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.04-00.33.23:156][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.12.04-00.33.23:295][  0]LogConsoleResponse:Display: 
+[2014.12.04-00.33.23:335][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version.
+>>>>>>> origin/master
